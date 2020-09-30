@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/stylesheet.css" />
+  </head>
+  <body>
+    <div class="nav-bar">
+      <ul>
+        <li>HTML<span>&gt;</span></li>
+        <li>CSS <span>&gt;</span></li>
+        <li>JAVASCRIPT<span>&gt;</span></li>
+        <li>REACTJS <span>&gt;</span></li>
+        <li>OTHER TECH <span>&gt;</span></li>
+      </ul>
+    </div>
+
+    <div class="main-container">
+      <div class="gray-area"></div>
+
+      <div class="center-area">
+        <div class="first-section">
+          <div class="first-section_text">
+            <h1>FRONTEND</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+            <form action="https://www.google.com">
+              <button type="button">Apply here<span>&gt;</span></button>
+            </form>
+          </div>
+          <div class="first-section_image">
+            <img src="resources/laptop-icon-5.png" alt="Laptop" />
+          </div>
+          <div class="third-item">
+            <div class="first-section_white-circle">
+              <h2>
+                80% DAYTIME SPENT
+              </h2>
+            </div>
+            <div class="black-background size white-text">
+              <h2>GUARANTEED</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="intermediate-area flex">
+          <div class="item">
+            <span class="circle">1 </span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor quis.
+            </p>
+          </div>
+          <div class="item">
+            <span class="circle"> 2</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor quis.
+            </p>
+          </div>
+          <div class="item">
+            <span class="circle"> 3</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor quis.
+            </p>
+          </div>
+        </div>
+
+        <div class="second-section">
+          <div class="carrousel-menu">
+            <div class="carrousel-menu_HTML-button">
+              <div class="dot" onclick="currentSlide(1)">HTML</div>
+            </div>
+            <div class="carrousel-menu_CSS-button">
+              <div class="dot" onclick="currentSlide(2)">CSS</div>
+            </div>
+            <div class="carrousel-menu_JavaScript-button">
+              <div class="dot" onclick="currentSlide(3)">JavaScript</div>
+            </div>
+            <div class="carrousel-menu_ReactJS-button">
+              <div class="dot" onclick="currentSlide(4)">ReactJS</div>
+            </div>
+          </div>
+
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="flex">
+                <div class="text-slide-show">
+                  <div class="flex title-resize">
+                    <span>&check;</span>
+                    <h2>HTML presentantion</h2>
+                  </div>
+                  <p class="carrousel_text_paragraph">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo.
+                  </p>
+                  <button type="button">
+                    Apply here now <span>&gt;</span>
+                  </button>
+                </div>
+
+                <div class="file">
+                  <img
+                    src="resources/FileHTML.webp"
+                    class="carrousel_image_resize"
+                    alt="HTML Icon File"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="flex">
+                <div class="text-slide-show">
+                  <div class="flex title-resize">
+                    <span>&check;</span>
+                    <h2>CSS presentantion</h2>
+                  </div>
+                  <p class="carrousel_text_paragraph">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo.
+                  </p>
+                  <button type="button">
+                    Apply here now <span>&gt;</span>
+                  </button>
+                </div>
+                <div class="file">
+                  <img
+                    src="resources/FileCSS.webp"
+                    class="carrousel_image_resize"
+                    alt="CSS Icon File"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="flex">
+                <div class="text-slide-show">
+                  <div class="flex title-resize">
+                    <span>&check;</span>
+                    <h2>JavaScript presentantion</h2>
+                  </div>
+                  <p class="carrousel_text_paragraph">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo.
+                  </p>
+                  <button type="button">
+                    Apply here now <span>&gt;</span>
+                  </button>
+                </div>
+                <div class="file">
+                  <img
+                    src="resources/FileJS.webp"
+                    class="carrousel_image_resize"
+                    alt="JavaScript Icon File"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="flex">
+                <div class="text-slide-show">
+                  <div class="flex title-resize">
+                    <span>&check;</span>
+                    <h2>ReactJS presentantion</h2>
+                  </div>
+                  <p class="carrousel_text_paragraph">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo.
+                  </p>
+                  <button type="button">
+                    Apply here now <span>&gt;</span>
+                  </button>
+                </div>
+                <div class="file">
+                  <img
+                    src="resources/FileReact.png"
+                    class="carrousel_image_resize"
+                    alt="React Icon File"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="absolute">
+              <a class="prev" onclick="plusSlides(-1)"
+                ><span class="circle"
+                  ><span class="left-button">&#10094;</span></span
+                >
+              </a>
+              <a class="next" onclick="plusSlides(1)"
+                ><span class="circle"
+                  ><span class="right-button">&#10095;</span>
+                </span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="third-section">
+          <div class="text">
+            <h2>Learn Angular!</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="text align-text">
+            <h2>BY YOURSELF</h2>
+            <p>
+              <span class="bolder">Section 1.10.32</span> <br />*de Finibus
+              Bonorum et Malorum*.<br />
+              <span class="bolder">written by Cicero in 45 BC </span> <br />1914
+              translation by H. Rackham
+            </p>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="confirmation">
+            <h2>Are you sure you want to join this class?</h2>
+            <button type="button" class="footer_button_width">
+              Apply here now <span>&gt;</span>
+            </button>
+          </div>
+          <div class="footer_text">
+            <p>
+              *At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque corrupti quos
+              dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident, similique sunt in culpa qui officia deserunt mollitia
+              animi, id est laborum et dolorum fuga. Et harum quidem rerum
+              facilis est et expedita distinctio. Nam libero tempore, cum soluta
+              nobis est eligendi optio cumque nihil impedit quo minus id quod
+              maxime placeat facere possimus, omnis voluptas assumenda est,
+              omnis dolor repellendus. Temporibus autem quibusdam et aut
+              officiis debitis aut rerum necessitatibus saepe eveniet ut et
+              voluptates repudiandae sint et molestiae non recusandae. Itaque
+              earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+              voluptatibus maiores alias consequatur aut perferendis doloribus
+              asperiores repellat.<span class="bolder underlined">Libero</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gray-area"></div>
+    </div>
+
+    <script src="js/slide-show.js"></script>
+  </body>
+</html>
